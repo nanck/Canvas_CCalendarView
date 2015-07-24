@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000">
+
+    <n.calendarview.widget.CalendarView
+        android:id="@+id/calv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:background="#CC555566"
+        android:layout_below="@id/calv_main"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:textColor="#EEFFFFFF"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+</RelativeLayout>
