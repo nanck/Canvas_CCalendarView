@@ -12,7 +12,6 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.apache.http.NameValuePair;
 
 import java.util.Calendar;
 
@@ -21,7 +20,7 @@ import n.calendarview.utils.HolidayUtils;
 import n.ccalendarviewlibrary.R;
 
 /**
- * Created by yunshouyi on 15/7/16.
+ * @author nanck  15/7/16.
  */
 public class CalendarView extends View {
     private static final String LOG_TAG = "CalendarView";
@@ -217,17 +216,17 @@ public class CalendarView extends View {
 
     private float x = 0f;
     private float y = 0f;
-    NameValuePair n = new NameValuePair() {
-        @Override
-        public String getName() {
-            return null;
-        }
-
-        @Override
-        public String getValue() {
-            return null;
-        }
-    };
+//    NameValuePair n = new NameValuePair() {
+//        @Override
+//        public String getName() {
+//            return null;
+//        }
+//
+//        @Override
+//        public String getValue() {
+//            return null;
+//        }
+//    };
 
 
     @Override
