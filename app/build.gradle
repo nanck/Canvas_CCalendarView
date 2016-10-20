@@ -1,9 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
+//        useJack(true)
         applicationId "com.example.nanck.firstappclient"
         minSdkVersion 15
         targetSdkVersion 24
@@ -28,4 +33,3 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':CCalendarView')
 }
-
