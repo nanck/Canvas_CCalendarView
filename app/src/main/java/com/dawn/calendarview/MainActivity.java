@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         final String dz = EraUtils.getYearForEarthlyBranches(mCalvMain.getYear());
         final String sx = EraUtils.getYearForTwelveZodiac(mCalvMain.getYear());
 
-        mTvDesc.setText(tg + dz + "    " + sx + "年/" + mCalvMain.getYear() + "    " + new SolarUtils(Calendar.getInstance()).getLunarDate());
+        mTvDesc.setText(tg + dz + "    " + sx + "年/ss" + mCalvMain.getYear() + "    " + new SolarUtils(Calendar.getInstance()).getLunarDate());
 
         mCalvMain.setOnTouchListener(new View.OnTouchListener() {
             @Override
